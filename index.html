@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Energia para um Futuro Sustentável</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@300;400&display=swap">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="scroll">
+    <header class="navbar navbar-expand-lg bg-success text-white">
+        <div class="container">
+            <a class="navbar-brand text-white d-flex align-items-center" href="#hero">
+                <img src="img/logo.png" alt="Logo Sustentabilidade" style="width: 40px; height: 40px; margin-right: 10px;">
+                Sustentabilidade
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link text-white" href="#problema">O Problema</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#solucoes">Soluções</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#tecnologia">Tecnologia</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#valores">Missão & Visão</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#contato">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero-section d-flex align-items-center fade-in" id="hero">
+        <div class="container text-center text-md-start">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h1>Energia para um Futuro Sustentável</h1>
+                    <p>Descubra como podemos transformar os desafios da crise energética em oportunidades para um planeta mais sustentável. A crise atual exige uma mudança urgente no modo como consumimos e produzimos energia, e juntos podemos fazer a diferença.</p>
+                    <a href="#problema" class="btn btn-primary">Saiba Mais</a>
+                </div>
+                <div class="col-md-6">
+                    <img src="img/sustentabilidade.png" alt="Sustentabilidade" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="problema" class="py-5 bg-light fade-in">
+        <div class="container">
+            <h2 class="text-center mb-4">Os Desafios da Crise Energética</h2>
+            <p class="text-center">
+                A crise energética atual representa uma ameaça significativa para o meio ambiente, a sociedade e a economia global. A dependência excessiva de combustíveis fósseis como petróleo, carvão e gás natural está esgotando recursos finitos e liberando quantidades alarmantes de gases de efeito estufa, agravando o aquecimento global. Além disso, milhões de pessoas em diversas partes do mundo ainda vivem sem acesso à energia elétrica, enfrentando barreiras no desenvolvimento econômico e social.
+            </p>
+        </div>
+    </section>
+    
+    <section id="impacto-grafico" class="py-4">
+        <div class="container">
+            <h2 class="text-center mb-4">Impactos das Energias Renováveis</h2>
+            <div class="chart-container">
+                <canvas id="graficoDesafios"></canvas>
+            </div>
+            <p class="chart-description mt-3">
+                O impacto das energias renováveis é significativo. Em 2023, foi estimado que elas evitaram a emissão de cerca de 
+                <strong>7 bilhões de toneladas de CO2</strong>, criaram mais de <strong>12 milhões de empregos</strong> no setor de 
+                energias limpas e somaram <strong>3,000 GW de capacidade instalada</strong> no mundo, de acordo com o 
+                <a href="https://www.irena.org/" target="_blank">IRENA</a>.
+            </p>
+        </div>
+    </section>
+
+    <section id="quem-somos" class="py-5 bg-light fade-in">
+        <div class="container">
+            <h2 class="text-center mb-4">Quem Somos</h2>
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p>
+                        Nosso compromisso inclui o desenvolvimento e implantação de tecnologias inovadoras, a otimização de recursos naturais e a redução significativa da emissão de gases poluentes. Buscamos sempre parcerias estratégicas que amplifiquem nosso impacto positivo no meio ambiente e nas comunidades onde atuamos.
+                    </p>
+                </div>
+                <div class="col-md-6 text-center">
+                    <img src="img/cartaz.png" alt="Cartaz Institucional" class="img-fluid shadow-lg rounded">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="valores" class="py-5 fade-in">
+        <div class="container">
+            <h2 class="text-center mb-4">Missão, Visão e Valores</h2>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <img src="img/missao.png" alt="Missão" class="mb-3" style="width: 80px;">
+                    <h4>Missão</h4>
+                    <p>Promover a sustentabilidade por meio da geração de energia limpa e renovável, contribuindo para um futuro mais verde e próspero.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="img/visao.png" alt="Visão" class="mb-3" style="width: 80px;">
+                    <h4>Visão</h4>
+                    <p>Ser reconhecidos como a principal referência em geração de energia sustentável no Brasil, destacando-se pela excelência em tecnologia e eficiência operacional e pelo impacto social positivo.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="img/valores.png" alt="Valores" class="mb-3" style="width: 80px;">
+                    <h4>Valores</h4>
+                    <p>Aspiramos a inspirar outras empresas a adotarem práticas sustentáveis e construir um futuro mais equilibrado, onde desenvolvimento econômico caminha junto com a preservação ambiental.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="solucoes" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Soluções Sustentáveis</h2>
+            <div class="row" id="solucoes-cards">
+            </div>
+        </div>
+    </section>
+
+    <section id="tecnologia" class="py-5 bg-light fade-in">
+        <div class="container">
+            <h2 class="text-center mb-4">O Papel da Tecnologia</h2>
+            <p class="text-center">A inovação é fundamental para a transição energética. Descubra tecnologias que estão moldando o futuro:</p>
+            <div id="tecnologia-slider" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner"></div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#tecnologia-slider" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#tecnologia-slider" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Próximo</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="py-5 bg-light fade-in">
+        <div class="container">
+            <h2 class="text-center mb-4">Fale Conosco</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="nome" class="form-label">Nome</label>
+                    <input type="text" class="form-control" id="nome" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">E-mail</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="mensagem" class="form-label">Mensagem</label>
+                    <textarea class="form-control" id="mensagem" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-success">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="text-center py-3 text-white" style="background-color: #1a7b84;">
+        <p>&copy; 2024 Sustentabilidade - Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
